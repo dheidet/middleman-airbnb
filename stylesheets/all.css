@@ -9128,6 +9128,31 @@ button.close {
 .fa-meanpath:before {
   content: ""; }
 
+/* line 1, /Users/dimitriheidet/Code/dheidet/middleman-airbnb/source/stylesheets/layout/_footer.scss */
+#footer {
+  background: #333333;
+  padding: 30px 0;
+  color: #CCCCCC; }
+
+/* line 6, /Users/dimitriheidet/Code/dheidet/middleman-airbnb/source/stylesheets/layout/_footer.scss */
+#footer p {
+  margin-top: 17px; }
+
+/* line 9, /Users/dimitriheidet/Code/dheidet/middleman-airbnb/source/stylesheets/layout/_footer.scss */
+#footer ul {
+  margin-top: 10px; }
+
+/* line 12, /Users/dimitriheidet/Code/dheidet/middleman-airbnb/source/stylesheets/layout/_footer.scss */
+#footer a {
+  color: #CCCCCC;
+  font-size: 30px;
+  letter-spacing: 20px;
+  transition: color 0.5s ease; }
+
+/* line 18, /Users/dimitriheidet/Code/dheidet/middleman-airbnb/source/stylesheets/layout/_footer.scss */
+#footer a:hover {
+  color: yellow; }
+
 /* Main class */
 /* line 3, /Users/dimitriheidet/Code/dheidet/middleman-airbnb/source/stylesheets/layout/_navbar.css.scss */
 .navbar-wagon {
@@ -9362,6 +9387,33 @@ button.close {
 .badge-bordered {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
   border: white 1px solid; }
+
+/* line 1, /Users/dimitriheidet/Code/dheidet/middleman-airbnb/source/stylesheets/components/_banner.scss */
+.banner {
+  color: white;
+  text-align: center;
+  height: 100vh;
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+/* line 10, /Users/dimitriheidet/Code/dheidet/middleman-airbnb/source/stylesheets/components/_banner.scss */
+.banner h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.2); }
+
+/* line 15, /Users/dimitriheidet/Code/dheidet/middleman-airbnb/source/stylesheets/components/_banner.scss */
+.banner p {
+  font-size: 25px;
+  font-weight: lighter;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 50px; }
+
+/* line 1, /Users/dimitriheidet/Code/dheidet/middleman-airbnb/source/stylesheets/pages/_home.scss */
+.banner_picture {
+  background: linear-gradient(-225deg, rgba(0, 101, 168, 0.6) 0%, rgba(0, 36, 61, 0.6) 50%), url("../images/background.png"); }
 
 /*
 ==============================================
